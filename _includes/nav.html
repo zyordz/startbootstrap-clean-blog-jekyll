@@ -9,7 +9,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <!--<a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}.com</a>-->
+            <a class="navbar-brand" href="http://zachyordy.com">[zy] blog</a>
+            <!--<a class="navbar-brand" href="http://photos.zachyordy.com">[zy] photos</a>-->
+            <a class="navbar-brand" href="/photos">[zy] photos</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -18,13 +21,20 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
-                {% for page in site.pages %}{% if page.title %}
+		<!-- ZJSY http://stackoverflow.com/questions/13266369/how-to-change-the-default-order-pages-in-jekyll -->
+		{% assign sorted_pages = site.pages | sort:"order" %}
+	            {% for page in sorted_pages %}
+			<!-- ZJSY http://stackoverflow.com/questions/25452429/excluding-page-from-jekyll-navigation-bar -->
+			{% unless page.exclude %}
+			    {% if page.title %}
 				{% if page.url != '/404.html' %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
 				{% endif %}
-                {% endif %}{% endfor %}
+			    {% endif %}
+			{% endunless %}
+                    {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->

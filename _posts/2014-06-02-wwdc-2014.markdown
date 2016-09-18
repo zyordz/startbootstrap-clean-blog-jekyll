@@ -1,0 +1,19 @@
+---
+layout:     post
+title:      "Apple Announces OS X Yosemite and iOS 8"
+date:       2014-06-02 12:00:00
+author:     "Zach Yordy"
+header-img: "img/iphone-6s-blue.jpg"
+---
+
+![](/content/images/2014/Jun/Yosemite-and-iOS-8.png)
+
+Today, Apple [announced](http://www.apple.com/pr/library/2014/06/02Apple-Announces-OS-X-Yosemite.html) a [complete overhaul](http://www.apple.com/pr/library/2014/06/02Apple-Unveils-iOS-8-the-Biggest-Release-Since-the-Launch-of-the-App-Store.html) of their software with [OS X Yosemite](http://www.apple.com/osx/preview/) and [iOS 8](http://www.apple.com/ios/ios8/). The newest version of OS X includes an *absolutely beautiful* redesign that I can’t wait to try out, including a new **Dark Mode** as well as a really killer search upgrade. They also updated iCloud, and made it a lot easier for apps to use common documents, as well as giving the end user more fine-grained control over what the iCloud storage pool looks like. They debuted a new feature entitled **Mail Drop** which allows people to send encrypted attachments of up to 5 GB in size. Apple also overhauled communication between Mac and iOS devices, enabling users to set up hotspots, sync a full iMessage/SMS history, pass documents in progress between devices, and even make and receive phone calls right from the Mac!
+
+Finally, they introduced a new version of iOS, which further enhances and refines the flat redesign that was introduced with last year’s iOS 7. The new iOS 8 is as much a release for developers as it is for the end user. With new features such as Widgets for Notification Center, in-app Touch ID support, greatly improved inter-app communication, and even a new Programming Language called Swift, Apple conceded a few points that the ATP guys have been harping on for a while now. (And there’s even full Photo syncing to every device for John Siracusa.)
+
+---
+
+This is a banner day for Apple. Even though they’ve shown that making sweeping changes (especially on a yearly OS release cycle!) is *hard* with the resources they have, Apple has outdone themselves today. They’ve clearly listened to the wishes of the public, and have gone above and beyond the call of duty.
+
+Apple is a company that, as of late, has been dominated by leaks in the supply chain and pressure from investors. Today, they changed the game. These redesigns not only greatly enhance usability, but will enable OS X and iOS to collaborate in ways that I never even imagined would be possible. Today, Apple didn’t introduce a single new piece of hardware, and I’m as excited as ever for what’s to come. 
